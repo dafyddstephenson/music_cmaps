@@ -9,6 +9,5 @@ def rgb2cmap(cmapname,ncols):
     cm=LinearSegmentedColormap.from_list(cmapname,cmarray,N=ncols)
     return cm
 
-kida=rgb2cmap('kida',128)
-    
-    
+kida         = rgb2cmap('kida',128)
+manonthemoon = rgb2cmap('manonthemoon',128)
