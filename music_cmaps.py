@@ -12,3 +12,4 @@ def rgb2cmap(cmapname,ncols):
 kida         = rgb2cmap('kida',128)
 manonthemoon = rgb2cmap('manonthemoon',128)
 punisher     = rgb2cmap('punisher',128)
+fullmoonfever= rgb2cmap('fullmoonfever',128)
