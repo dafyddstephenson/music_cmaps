@@ -18,3 +18,5 @@ lemonade      = rgb2cmap('lemonade',128)
 spiritualstate= rgb2cmap('spiritualstate',128)
 somegirls     = rgb2cmap('somegirls',7)
 currents      = rgb2cmap('currents',128)
+nodream       = rgb2cmap('nodream',128)
+skadream      = nodream
