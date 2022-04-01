@@ -20,3 +20,4 @@ somegirls     = rgb2cmap('somegirls',7)
 currents      = rgb2cmap('currents',128)
 nodream       = rgb2cmap('nodream',128)
 skadream      = nodream
+donda         = rgb2cmap('donda',2)
