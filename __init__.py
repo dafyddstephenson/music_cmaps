@@ -21,3 +21,4 @@ currents      = rgb2cmap('currents',128)
 nodream       = rgb2cmap('nodream',128)
 skadream      = nodream
 donda         = rgb2cmap('donda',2)
+incolour      = rgb2cmap('incolour',25)
