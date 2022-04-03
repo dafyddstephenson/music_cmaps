@@ -22,3 +22,4 @@ nodream       = rgb2cmap('nodream',128)
 skadream      = nodream
 donda         = rgb2cmap('donda',2)
 incolour      = rgb2cmap('incolour',25)
+melodrama     = rgb2cmap('melodrama',128)
