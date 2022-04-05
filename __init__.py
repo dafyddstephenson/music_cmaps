@@ -4,23 +4,24 @@ from matplotlib.colors import LinearSegmentedColormap
 
 ################################################################################
 
-def rgb2cmap(cmapname,ncols):
+def get_music_cmap(cmapname,ncols):
     cmarray=np.loadtxt(os.path.dirname(os.path.realpath(__file__))+'/RGB/'+cmapname+'.rgb')
     cm=LinearSegmentedColormap.from_list(cmapname,cmarray,N=ncols)
     return cm
 
-kida                 = rgb2cmap('kida',128)
-manonthemoon         = rgb2cmap('manonthemoon',128)
-punisher             = rgb2cmap('punisher',128)
-fullmoonfever        = rgb2cmap('fullmoonfever',128)
-wastinglight         = rgb2cmap('wastinglight',128)
-lemonade             = rgb2cmap('lemonade',128)
-spiritualstate       = rgb2cmap('spiritualstate',128)
-somegirls            = rgb2cmap('somegirls',7)
-currents             = rgb2cmap('currents',128)
-nodream              = rgb2cmap('nodream',128)
+kida                 = get_music_cmap('kida',128)
+manonthemoon         = get_music_cmap('manonthemoon',128)
+punisher             = get_music_cmap('punisher',128)
+fullmoonfever        = get_music_cmap('fullmoonfever',128)
+wastinglight         = get_music_cmap('wastinglight',128)
+lemonade             = get_music_cmap('lemonade',128)
+spiritualstate       = get_music_cmap('spiritualstate',128)
+somegirls            = get_music_cmap('somegirls',7)
+currents             = get_music_cmap('currents',128)
+nodream              = get_music_cmap('nodream',128)
 skadream             = nodream
-donda                = rgb2cmap('donda',2)
-incolour             = rgb2cmap('incolour',25)
-melodrama            = rgb2cmap('melodrama',128)
-godsfavoritecustomer = rgb2cmap('godsfavoritecustomer',128)
+donda                = get_music_cmap('donda',2)
+incolour             = get_music_cmap('incolour',25)
+melodrama            = get_music_cmap('melodrama',128)
+godsfavoritecustomer = get_music_cmap('godsfavoritecustomer',128)
+aladdinsane          = get_music_cmap('aladdinsane',128)
