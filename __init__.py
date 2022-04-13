@@ -5,6 +5,18 @@ from matplotlib.colors import LinearSegmentedColormap
 ################################################################################
 
 def get_music_cmap(cmapname,ncols):
+    ''' 
+    Return a colormap from the music_cmaps library
+    Parameters:
+    -----------
+    cmapname (str): The name of the desired colormap
+    ncols (int): The number of colors in the returned colormap, quantized from a
+                 list of colors stored in a plaintext .rgb file
+    Returns:
+    -------
+    cm (LinearSegmentedColormap): The requested colormap
+    '''
+    
     cmarray=np.loadtxt(os.path.dirname(os.path.realpath(__file__))+'/RGB/'+cmapname+'.rgb')
     cm=LinearSegmentedColormap.from_list(cmapname,cmarray,N=ncols)
     return cm
