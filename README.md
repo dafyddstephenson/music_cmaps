@@ -25,4 +25,4 @@ fig.show()
 ```
 
 ## Previews:
-![Preview of available colormaps](https://github.com/2wheelsgood/music_cmaps/blob/master/preview1.png)?raw=true)
+![Preview of available colormaps](https://github.com/2wheelsgood/music_cmaps/blob/master/preview1.png)
