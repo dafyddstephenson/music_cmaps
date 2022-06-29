@@ -23,3 +23,6 @@ ax.contour(X,Y,np.sin(X)*np.sin(Y),32,colors='k',linewidths=0.3)
 fig.colorbar(p,ax=ax)
 fig.show()
 ```
+
+## Previews:
+![Preview of available colormaps](https://github.com/2wheelsgood/music_cmaps/blob/master/preview1.png)?raw=true)
